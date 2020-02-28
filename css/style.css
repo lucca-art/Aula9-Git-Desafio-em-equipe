@@ -5,7 +5,7 @@
 .container{
     width: 100%;
     height: 500px;
-    background-color: aqua;
+    background-color: rgba(32, 192, 255, 0.863);
     padding-top: 120px;
 }
 .container h1{
@@ -16,9 +16,31 @@
     font-size: 50px;
 }
 .container p{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 20px;
+}
+
+.botao a{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(0,0,0, 0.4);
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 867px;
+}
+.botao a:hover{
+    background-color: rgba(255,255,255 0.582);
+    box-shadow: 0px 5px 20px #000000;
+    color: #000;
 }
